@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea05_Relog.MainPage"
+             Title="Cronómetro">
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto" ColumnDefinitions="*, *, *" Padding="10">
+
+            <!-- Botón para iniciar -->
+            <Button Text="INICIAR" Grid.Row="0" Grid.Column="0" Clicked="OnIniciarClicked"/>
+            <Label Text="Iniciar:" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End"/>
+            <Entry x:Name="EntryIniciar" Grid.Row="0" Grid.Column="2" IsReadOnly="True"/>
+
+            <!-- Botón para detener -->
+            <Button Text="DETENER" Grid.Row="1" Grid.Column="0" Clicked="OnDetenerClicked"/>
+            <Label Text="Detenerse:" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End"/>
+            <Entry x:Name="EntryDetener" Grid.Row="1" Grid.Column="2" IsReadOnly="True"/>
+
+            <!-- Botón para salir -->
+            <Button Text="SALIR" Grid.Row="2" Grid.Column="0" Clicked="OnSalirClicked"/>
+            <Label Text="Tiempo transcurrido:" Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End"/>
+            <Entry x:Name="EntrySalida" Grid.Row="2" Grid.Column="2" IsReadOnly="True"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
