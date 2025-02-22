@@ -1,0 +1,10 @@
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\bin\Debug\WindowsFormsTarea02.exe.config
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\bin\Debug\WindowsFormsTarea02.exe
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\bin\Debug\WindowsFormsTarea02.pdb
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.csproj.AssemblyReference.cache
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.Form1.resources
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.Properties.Resources.resources
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.csproj.GenerateResource.cache
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.csproj.CoreCompileInputs.cache
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.exe
+C:\Users\jmate\source\repos\WindowsFormsTarea02\WindowsFormsTarea02\obj\Debug\WindowsFormsTarea02.pdb
