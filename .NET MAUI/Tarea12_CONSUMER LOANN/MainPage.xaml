@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="TAREA_12_CONSUMER_LOAN.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,*,Auto,Auto" ColumnDefinitions="Auto,*">
+        <Label Text="Saldo del Préstamo:"
+               Grid.Row="0" Grid.Column="0" VerticalOptions="Center"/>
+        <Entry x:Name="campoSaldoPrestamo"
+               Grid.Row="0" Grid.Column="1" Placeholder="Ingrese saldo" />
+
+        <Label Text="Tasa de Interés (%):"
+               Grid.Row="1" Grid.Column="0" VerticalOptions="Center"/>
+        <Entry x:Name="campoTasaInteres"
+               Grid.Row="1" Grid.Column="1" Placeholder="Tasa de interés"/>
+
+        <Label Text="Número de Pagos:"
+               Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>
+        <Entry x:Name="campoNumeroPagos"
+               Grid.Row="2" Grid.Column="1" Placeholder="Número de pagos"/>
+
+        <Label Text="Pago Mensual:"
+               Grid.Row="3" Grid.Column="0" VerticalOptions="Center"/>
+        <Entry x:Name="campoPagoMensual"
+               Grid.Row="3" Grid.Column="1" Placeholder="Pago mensual" IsEnabled="False"/>
+
+        <Editor x:Name="areaAnalisis"
+                Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
+                HeightRequest="200" IsReadOnly="True"/>
+
+        <Button x:Name="botonCalcular"
+                Text="Calcular Pago Mensual"
+                Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" />
+
+        <Button x:Name="botonNuevoAnalisis"
+                Text="Nuevo Análisis"
+                Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
+
+        <Button x:Name="botonSalir"
+                Text="Salir"
+                Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" />
+
+        <Button x:Name="botonCambiarModo"
+                Text="Cambiar Modo"
+                Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" />
+    </Grid>
+</ContentPage>
